@@ -10,34 +10,34 @@
   </head>
   <body>
     <!-- Header Section -->
-    <header>
-        <!-- the black side thingy -->
-      <div
-        class="bg-black/80 py-2 px-32 w-full flex items-center justify-between font-medium text-white text-xs"
-      >
-        <div class="flex items-center gap-4">
-          <p class="flex items-center">About the University</p>
-          <p class="flex items-center">Faculties</p>
-        </div>
+     <!-- the black side thingy -->
+     <div
+     class="bg-black/80 py-2 px-32 w-full flex items-center justify-between font-medium text-white text-xs"
+   >
+     <div class="flex items-center gap-4">
+       <p class="flex items-center">About the University</p>
+       <p class="flex items-center">Faculties</p>
+     </div>
 
-        <div class="flex items-center justify-between gap-6">
-          <div class="flex items-center gap-2">
-            <p class="flex items-center">Logo</p>
-            <p class="flex items-center">Logo</p>
-            <p class="flex items-center">Logo</p>
-            <p class="flex items-center">Logo</p>
-            <p class="flex items-center">Logo</p>
-            <p class="flex items-center">Logo</p>
-          </div>
-          <div class="flex items-center gap-2">
-            <p class="text-base">PT</p>
-            <p class="text-base">EN</p>
-          </div>
-        </div>
-      </div>
+     <div class="flex items-center justify-between gap-6">
+       <div class="flex items-center gap-2">
+         <p class="flex items-center">Logo</p>
+         <p class="flex items-center">Logo</p>
+         <p class="flex items-center">Logo</p>
+         <p class="flex items-center">Logo</p>
+         <p class="flex items-center">Logo</p>
+         <p class="flex items-center">Logo</p>
+       </div>
+       <div class="flex items-center gap-2">
+         <p class="text-base">PT</p>
+         <p class="text-base">EN</p>
+       </div>
+     </div>
+   </div>
 
+    <header class="sticky z-10 top-0">
       <!-- The main header -->
-       <nav class="py-6 w-full bg-[#d8dee9] top-0 sticky z-10">
+       <nav class="py-6 w-full bg-[#d8dee9] top-0 z-10">
             <div class="w-[82%] mx-auto container gap-6 flex justify-between items-center">
                 <div class="flex items-center">
                     <img src="../dist/assets/logo-clone.svg" height="2.5em" width="400" alt="">
@@ -51,7 +51,7 @@
                     <p class="font-[900] text-base text-[#333]">LIVE</p>
                     <p class="font-[900] text-base text-[#333]">EXPLORE</p>
         
-                    <p class="flex items-center border-b-2 border-black justify-between">
+                    <p class="flex items-center border-b-2 border-black justify-between cursor-pointer">
                         <p class="text-sm">Search</p>
                         <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="24" height="24" viewBox="0 0 101 101" id="search">
                             <path d="M63.3 59.9c3.8-4.6 6.2-10.5 6.2-17 0-14.6-11.9-26.5-26.5-26.5S16.5 28.3 16.5 42.9 28.4 69.4 43 69.4c6.4 0 12.4-2.3 17-6.2l20.6 20.6c.5.5 1.1.7 1.7.7.6 0 1.2-.2 1.7-.7.9-.9.9-2.5 0-3.4L63.3 59.9zm-20.4 4.7c-12 0-21.7-9.7-21.7-21.7s9.7-21.7 21.7-21.7 21.7 9.7 21.7 21.7-9.7 21.7-21.7 21.7z"></path>
@@ -65,15 +65,15 @@
     <!-- Hero Section -->
      <section>
         <div class="relative bg-[url('https://www.up.pt/portal/media/images/investigacao-icbas-2024_01.format-jpeg.jpg')] bg-cover bg-center h-[80vh]">
-            <p class="absolute text-white bg-[#a18a4d] py-2 px-5 cursor-pointer flex items-center justify-center left-0 top-[50%]">
+            <p class="absolute rotate-180 text-white bg-[#a18a4d] py-2 px-5 cursor-pointer flex items-center justify-center left-0 top-[50%]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" id="angle">
-                    <path fill="#444" d="M4 13h2l5-5-5-5H4l5 5z"></path>
+                    <path fill="white" d="M4 13h2l5-5-5-5H4l5 5z"></path>
                   </svg>
                   
             </p>
             <p class="absolute text-white bg-[#a18a4d] py-2 px-5 cursor-pointer flex items-center justify-center right-0 top-[50%]">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" id="angle">
-                    <path fill="#444" d="M4 13h2l5-5-5-5H4l5 5z"></path>
+                    <path fill="white" d="M4 13h2l5-5-5-5H4l5 5z"></path>
                   </svg>                  
             </p>
 
